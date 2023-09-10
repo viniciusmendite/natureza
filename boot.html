@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página sobre a Natureza</title>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Página sobre a Natureza</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <section class="mb-4">
+                <h2>Fauna e Flora</h2>
+                <p>A natureza é repleta de biodiversidade, com uma grande variedade de plantas e animais. Florestas tropicais, savanas, oceanos e desertos abrigam uma riqueza de espécies que desempenham papéis vitais em seus ecossistemas.</p>
+            </section>
+
+            <section class="mb-4">
+                <h2>Conservação Ambiental</h2>
+                <p>A conservação da natureza é crucial para a sobrevivência das espécies e a saúde do planeta. Organizações e pessoas de todo o mundo trabalham para proteger áreas naturais, combater a poluição e promover práticas sustentáveis.</p>
+            </section>
+
+            <section>
+                <h2>Aventuras ao Ar Livre</h2>
+                <p>Explorar a natureza proporciona experiências incríveis. Caminhadas em trilhas, acampamentos, observação de aves e passeios de caiaque são apenas algumas das maneiras de se conectar com o ambiente natural.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            &copy; <span id="year"></span> Página sobre a Natureza
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
